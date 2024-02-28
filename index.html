@@ -13,8 +13,19 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <title>Mihaela Diana Lita's Resumé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Honk&display=swap" rel="stylesheet">
+
+    <title>Ollie Lita's Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -43,17 +54,16 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="C:\Users\olive\OneDrive\Desktop\BUas\Year 2\BrandDevelopment_Production\GitHub\PRJ4_PRODUCTION\images\portrait.svg" alt="Portrait of Firstname Lastname" width="160" height="160">
+          <img class="w-100 rounded-circle my-3" src="images/portrait.jpg" alt="Portrait of " width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Mihaela Diana Lita</h1>
+          <h1 class="my-name">Ollie Lita</h1>
           <h5 class="fst-italic tagline">Year 2 Creative Business Student.</h5>
         </div>
       </header>
-
       <!--
         Another row in the Bootstrap grid, for the rest of the résumé.
         Biography and other details will be on top of each other at sizes XS and S, then next to each other.
@@ -64,13 +74,14 @@
         <!--
           <main> is another semantic element. It will contain biographical info (professional experience and education).
         -->
+      <hr>
         <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
-
+        
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class="funky-titles">Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -81,7 +92,7 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/filmfestivallogo.png" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Project Manager, Year 1 Film Festival</h4>
@@ -99,7 +110,7 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/albertheijnlogo.png" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Albert Heijn Employee, Supermarket chain</h4>
@@ -117,7 +128,7 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="funky-titles">Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -166,7 +177,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2>Contact</h2>
+            <h2 class="funky-titles">Contact</h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -175,27 +186,27 @@
             -->
             <ul class="contact-list list-unstyled">
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
-                  <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
+                <a class="d-flex align-items-center" href="mailto:221251@buas.nl" target="_blank">
+                  <img class="contact-icon" src="images/icons/mail.png" alt="Email">
                   221251@buas.nl
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
-                  Facebook Profile
+                <a class="d-flex align-items-center" href="https://www.facebook.com/lita.mihaeladiana/" target="_blank">
+                  <img class="contact-icon" src="images/icons/facebook.png" alt="Facebook">
+                  Ollie's Facebook Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
+                <a class="d-flex align-items-center" href="https://www.instagram.com/ll.ollie/" target="_blank">
+                  <img class="contact-icon" src="images/icons/instagram.png" alt="Instagram">
+                  Ollie's Instagram Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
-                  TikTok @bredauniversityas
+                <a class="d-flex align-items-center" href="https://www.tiktok.com/@_athymos_?lang=en" target="_blank">
+                  <img class="contact-icon" src="images/icons/tiktok.png" alt="TikTok Profile">
+                  Ollie's TikTok Profile
                 </a>
               </li>
             </ul>
@@ -204,22 +215,22 @@
           <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
-            <h2>Languages</h2>
+            <h2 class="funky-titles">Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">Romanian</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+                  <div class="language-progress position-absolute h-100 w-100"></div>
+                  <h6  class="position-absolute w-100 text-center top-0 py-1">Native</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">English</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress position-absolute h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
@@ -227,7 +238,7 @@
                 <h5 class="language-name w-50">French</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <div class="language-progress position-absolute h-100 w-25"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
@@ -237,7 +248,7 @@
           <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
+            <h2 class="funky-titles">Other Skills</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Team-oriented</li>
               <li class="skill-item">Detailed Focused</li>

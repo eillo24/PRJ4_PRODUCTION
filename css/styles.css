@@ -6,29 +6,29 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:'Manrope';
 	color: #202030;
-	background-color: #f8f8fc;
+	background-image:linear-gradient(to right,#ffd187,#e3c8fff5,#feebff,#ffd187);
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #F2AFA0;
+    background-color: #caa1d8;
 }
 
 .resume-main {
-	background-color:#FDDDD1;
+	background-color:#d9c6f1;
 }
 
 .resume-aside {
-	background-color: #A8B8AE;
+	background-color: #ffffff;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "●";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color:#C8C6AD;
+	color:#6f6eb4;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +48,50 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.funky-titles {
+	color: #000000;
+
+    text-align: left;
+
+    font-style: bold;
+
+    text-shadow: 2px 2px 2px #9855c1;
+
+	font-family: "Anton", sans-serif;
+
+	font-weight: 400;
+
+	font-style: normal;
+	  
+}
+
+hr {
+	margin: 0;
+	height:10px;
+	background-color:#67009adf;
+	opacity: 0.25;
+  }
+
+.my-name {
+    text-align: left;
+
+    text-shadow: 2px 2px 2px #9855c1;
+
+    font-family: "Honk", system-ui;
+   
+    font-optical-sizing: auto;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.language-progress {
+	background-color: #c6a6ea;
 }
